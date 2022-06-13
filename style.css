@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        #182138 0%,
+        #182138 32%,
+        #1E2841 32%,
+        #1E2841 100%
+    );
+}
+
+header{
+    display: flex;
+    /* align-items: center; */
+}
+
+.search{
+    padding: 16px 30px;
+}
+
+.search input{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
+    width: 327px;
+    padding: 14px 0px 14px 22px;
+    background: #2A3552;
+    border-radius: 4px;
+    border: none;
+}
+.profile{
+    display: flex;
+    background: #2A3552;
+    box-shadow: 0px 16px 32px rgba(40, 51, 78, 0.1);
+    align-items: center;
+    width: 100%;
+}
+
+.profile img{
+    margin-left: 24px;
+}
+
+.profile-information{
+    margin-left: 20px;
+}
+
+.profile-name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.last-seen{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #B5B5B5;
+}
+
+.navigation img{
+    margin-left: 631px;
+}
+
+.chat-box{
+    border-top: 1px solid #2A3552;
+}
+
+
+
+.input-message{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    margin-left: 32%;
+    background: #2A3552;
+    padding: 0px 0px 0px 24px;
+    width: 100%;
+}
+
+.input{
+    padding: 16px 550px 16px 32px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100.02%;
+    /* identical to box height, or 16px */
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    opacity: 0.8;
+    border: none;
+    background: #3C496A;
+    border-radius: 4px;
+}
+
+::placeholder { 
+    color: #FFFFFF;
+}
+
+.input-message span img{
+    margin-top: 20px;
+}
+
+.para{
+    margin: 2px 24px 0px 430px;
+    margin-bottom: 10px;
+    /* background: #485578; */
+    padding: 10px 20px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    width: 350px;
+}
+
+.textarea{
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+}
